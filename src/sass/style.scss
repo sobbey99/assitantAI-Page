@@ -1,0 +1,33 @@
+@import "./libs/_bootstrap-grid.min.scss";
+@import "./base/_variables.scss";
+@import "./base/_fonts.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+a,
+address,
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@import "./blocks/_hello.scss";

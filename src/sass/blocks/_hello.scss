@@ -1,0 +1,37 @@
+.hello {
+  padding-top: 30px;
+  .nav {
+    align-items: center;
+    &-list {
+      color: $gray-color;
+      list-style: none;
+      display: flex;
+      font-size: 16px;
+      font-weight: 600;
+      gap: 24px;
+    }
+    &-auth {
+      display: flex;
+      list-style: none;
+      &__item {
+        font-size: 16px;
+        font-weight: 600;
+        &_login {
+          display: flex;
+          gap: 8px;
+          color: $black-color;
+        }
+        &_register {
+          color: $blue-color;
+          border: 1px solid $blue-color;
+          height: 48px;
+          border-radius: 4px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @include hover-effect;
+        }
+      }
+    }
+  }
+}
