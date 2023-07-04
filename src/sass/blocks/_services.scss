@@ -1,6 +1,39 @@
 .ourservices {
   padding-top: 65px;
   .service {
+    position: relative;
+    .decorator {
+      position: absolute;
+      z-index: -1;
+      &__1 {
+        left: -55px;
+        top: 0;
+      }
+      &__2 {
+        right: 220px;
+        top: 46px;
+      }
+      &__3 {
+        right: -18px;
+        top: 35px;
+      }
+      &__4 {
+        left: 300px;
+        top: 48px;
+      }
+      &__5 {
+        right: -80px;
+        bottom: -30px;
+      }
+      &__6 {
+        left: 236px;
+        bottom: -35px;
+      }
+      &__7 {
+        left: 220px;
+        top: 200px;
+      }
+    }
     &__title {
       margin-top: 60px;
       margin-bottom: 32px;
@@ -17,7 +50,7 @@
       &_center {
         margin-top: 20px;
         display: grid;
-        grid-template-columns: 309px 309px;
+        grid-template-columns: 264px 264px;
         column-gap: 20px;
         justify-content: center;
       }
