@@ -3,11 +3,20 @@ $gray-color: #a8b4bf;
 $black-color: #0f1016;
 $blue-color: #006bff;
 
-@mixin hover-effect {
+@mixin hover-effect-outlined {
   transition: all 0.3s ease;
   &:hover {
     // Styles for the hover effect
-    background-color: #006bff;
+    background-color: $blue-color;
     color: #ffffff;
+  }
+}
+
+@mixin hover-effect-filled {
+  transition: all 0.3s ease;
+  &:hover {
+    // Styles for the hover effect
+    background-color: #fff;
+    color: $blue-color;
   }
 }
