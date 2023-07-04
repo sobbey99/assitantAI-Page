@@ -1,0 +1,28 @@
+.ready {
+  padding-top: 205px;
+  &-wrapper {
+    background-color: $lightblue-color;
+    border-radius: 4px;
+    height: 257px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    .left {
+      flex: 1;
+    }
+    .right {
+      transform: translateY(-45px);
+    }
+  }
+  &__title,
+  &__subtitle {
+    text-align: left;
+  }
+  &__subtitle {
+    margin-bottom: 25px;
+  }
+  &__btn {
+    width: 347px;
+    height: 52px;
+  }
+}
