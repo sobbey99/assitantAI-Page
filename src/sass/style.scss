@@ -1,7 +1,7 @@
 // @import "./libs/_bootstrap-grid.min.scss";
 @import "./base/_variables.scss";
 @import "./base/_fonts.scss";
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -55,3 +55,4 @@ a {
 
 @import "./blocks/_hello.scss";
 @import "./blocks/_services.scss";
+@import "./blocks/_dialog.scss";
