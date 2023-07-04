@@ -1,4 +1,13 @@
 .ready {
+  position: relative;
+  .decorator {
+    position: absolute;
+    z-index: -1;
+    &__1 {
+      left: 0;
+      top: 80px;
+    }
+  }
   padding-top: 205px;
   &-wrapper {
     background-color: $lightblue-color;

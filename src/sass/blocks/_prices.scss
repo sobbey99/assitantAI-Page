@@ -5,6 +5,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
+    position: relative;
+    .decorator {
+      position: absolute;
+      z-index: -1;
+      &__1 {
+        right: -50px;
+        top: -30px;
+      }
+      &__2 {
+        bottom: -30px;
+        left: -50px;
+      }
+    }
   }
   &-item {
     border-radius: 10px;
