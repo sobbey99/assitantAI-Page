@@ -40,6 +40,9 @@
       font-weight: 400;
       margin-bottom: 38px;
     }
+    &-reg {
+      width: 285px;
+    }
   }
   .adv {
     padding-top: 45px;
@@ -55,6 +58,12 @@
         align-items: center;
         border: 1px solid $blue-color;
         border-radius: 2px;
+      }
+      p {
+        text-align-last: left;
+        color: $black-color;
+        margin-bottom: 0;
+        font-size: 15px;
       }
     }
   }
