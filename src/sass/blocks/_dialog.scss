@@ -1,6 +1,18 @@
 .dialog {
+  position: relative;
+  .decorator {
+    position: absolute;
+    z-index: -1;
+    &__1 {
+      bottom: 0;
+      left: 0;
+    }
+  }
   padding-top: 120px;
   &-question {
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
     margin-bottom: 18px;
     padding: 18px;
     border-radius: 4px;
@@ -32,6 +44,24 @@
     }
   }
   &-answer {
+    position: relative;
+    .decorator {
+      position: absolute;
+      z-index: -1;
+
+      &__1 {
+        left: -300px;
+      }
+      &__2 {
+        top: -30px;
+        left: -120px;
+        z-index: -1;
+      }
+      &__3 {
+        bottom: 0;
+        right: -250px;
+      }
+    }
     margin-bottom: 18px;
     padding: 18px;
     border-radius: 4px;
