@@ -86,8 +86,16 @@ a {
   font-weight: 400;
 }
 
+.basic-subtitle-p5 {
+  color: $gray-color;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
 @import "./blocks/_hello.scss";
 @import "./blocks/_services.scss";
 @import "./blocks/_dialog.scss";
 @import "./blocks/_prices.scss";
 @import "./blocks/_ready.scss";
+@import "./blocks/_footer.scss";
