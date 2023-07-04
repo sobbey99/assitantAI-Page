@@ -103,3 +103,36 @@ a {
 @import "./blocks/_prices.scss";
 @import "./blocks/_ready.scss";
 @import "./blocks/_footer.scss";
+
+@media screen and (max-width: 1399px) {
+  .ourservices .service-wrapper_center {
+    grid-template-columns: 264px 264px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .ourservices .service-wrapper_center {
+    grid-template-columns: 219px 219px;
+  }
+
+  .container {
+    max-width: 97% !important;
+    margin: 0 auto !important;
+  }
+  .hero .right img {
+    width: 100%;
+  }
+
+  .decorator {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 776px) {
+}
+
+@media screen and (max-width: 575px) {
+}
