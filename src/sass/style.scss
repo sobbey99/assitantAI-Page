@@ -9,7 +9,8 @@
   font-family: "Gilroy", serif;
 }
 
-html {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -122,13 +123,12 @@ a {
   .hero .right img {
     width: 100%;
   }
-
-  .decorator {
-    display: none !important;
-  }
 }
 
 @media screen and (max-width: 991px) {
+  .decorator {
+    display: none !important;
+  }
   .dialog {
     padding-top: 60px;
   }
